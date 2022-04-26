@@ -1,0 +1,49 @@
+.banner{
+    background-image: url("FUNDO.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+   
+}
+
+header{
+    margin: 0 4% 0 4%;
+}
+
+.navbar-light .navbar-brand{
+    color: #ffebd2;
+    font-size: 50px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #ffebd2;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.conteudoParagrafo{
+    display: grid;
+    grid-template-areas:
+    "paragrafo circulo";
+    grid-template-columns: 1fr 1fr;
+    margin-top: 5%;
+}
+
+.paragrafo{
+    grid-area: paragrafo;
+    color: #ffebd2;
+    font-size: 20px;
+    align-self: center;
+    margin-left: 30px;
+}
+
+.circulo{
+    grid-area: circulo;
+    background-color: black;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-image: url("eu.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
